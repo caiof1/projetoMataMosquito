@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('../img/bg.jpg') left top no-repeat;
+    background-size: cover;
+}
+.div {
+    text-align: center;
+}
+.div div button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.div div button:hover {
+    color: white;
+    border-color: white;
+}
